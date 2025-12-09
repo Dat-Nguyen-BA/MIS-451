@@ -1,7 +1,6 @@
-📘 Hotel Booking Cancellation Prediction
+# 📘 Hotel Booking Cancellation Prediction
 
-# MIS 451 – Machine Learning for Business
-## Becamex Business School
+## MIS 451 – Machine Learning for Business
 
 # 📌 Overview
 

@@ -33,7 +33,7 @@ Help hotels implement:
   
   Reduce lost revenue caused by unexpected cancellations.
 
-🧠 Business Context
+# 🧠 Business Context
 
 The hospitality industry faces:
 
@@ -55,7 +55,7 @@ Operations/Front Desk – staffing, room assignment
 
 This project provides data-driven insight to strengthen decision-making.
 
-📊 Dataset
+# 📊 Dataset
 
 Source: Antonio et al. (2019), “Hotel booking demand datasets”
 
@@ -81,7 +81,7 @@ Special requests
 
 Assigned room type
 
-🔎 Exploratory Data Analysis (EDA)
+#🔎 Exploratory Data Analysis (EDA)
 Key Findings:
 
 Cancellation rate: ~37%
@@ -106,7 +106,7 @@ Lead time distribution
 
 Monthly cancellation trends
 
-🛠️ Data Preprocessing
+# 🛠️ Data Preprocessing
 
 Steps performed:
 
@@ -130,8 +130,8 @@ Scaling applied for LR and DL models
 
 Handled imbalance via monitoring precision/recall trade-offs
 
-🤖 Machine Learning Models
-1️⃣ Random Forest
+# 🤖 Machine Learning Models
+## 1️⃣ Random Forest
 
 Accuracy: 76%
 
@@ -139,7 +139,7 @@ Strong recall (detecting cancellations)
 
 Lower precision → many false positives
 
-2️⃣ XGBoost
+## 2️⃣ XGBoost
 
 Accuracy: 82% (best ML model)
 
@@ -147,13 +147,13 @@ Balanced precision & recall
 
 Handles high-dimensional data effectively
 
-3️⃣ Logistic Regression
+## 3️⃣ Logistic Regression
 
 Accuracy: 74%
 
 Performs moderately, limited by nonlinear relationships
 
-🧬 Deep Learning Model
+## 🧬 Deep Learning Model
 Architecture
 
 Feedforward Neural Network (4 layers)

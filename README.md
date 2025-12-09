@@ -1,9 +1,9 @@
 📘 Hotel Booking Cancellation Prediction
 
-MIS 451 – Machine Learning for Business
-Becamex Business School
+# MIS 451 – Machine Learning for Business
+## Becamex Business School
 
-📌 Overview
+#📌 Overview
 
 This project builds predictive Machine Learning and Deep Learning models to determine whether a hotel booking will be canceled or completed. With a cancellation rate of nearly 37%, hotels experience significant revenue loss and operational inefficiencies. By developing a robust prediction system, hotels can optimize inventory, reduce overbooking risks, and improve revenue management.
 
@@ -12,24 +12,23 @@ This repository contains the full pipeline, from data preprocessing and EDA to m
 📂 Repository Structure
 📁 Hotel-Cancellation-Prediction
 │
-├── 📄 Group 3A_MIS 451_Code.ipynb   # Full code: EDA, preprocessing, ML, DL
-├── 📄 Group 3A_MIS 451_Report.pdf    # Final project report
+├── [📄 Group 3A_MIS 451_Code.ipynb]([url](https://github.com/Dat-Nguyen-BA/MIS-451/blob/main/Group%203A_MIS%20451_Final%20Project/Group%203A_MIS%20451_Code.ipynb))
+├── [📄 Group 3A_MIS 451_Report.pdf]([url](https://github.com/Dat-Nguyen-BA/MIS-451/blob/main/Group%203A_MIS%20451_Final%20Project/Group%203A_MIS%20451_Report.pdf))
 ├── 📄 README.md                      # Project documentation
-└── 📁 images/                        # Plots and figures (optional)
 
-🎯 Project Objectives
+# 🎯 Project Objectives
 
 Predict hotel booking cancellations using ML and DL models.
 
 Help hotels implement:
 
-Smarter overbooking strategies
-
-Targeted retention incentives
-
-Better resource planning
-
-Reduce lost revenue caused by unexpected cancellations.
+  Smarter overbooking strategies
+  
+  Targeted retention incentives
+  
+  Better resource planning
+  
+  Reduce lost revenue caused by unexpected cancellations.
 
 🧠 Business Context
 

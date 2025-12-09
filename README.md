@@ -13,7 +13,9 @@ This repository contains the full pipeline, from data preprocessing and EDA to m
 📁 Hotel-Cancellation-Prediction
 │
 ├── [📄 Group 3A_MIS 451_Code.ipynb]([url](https://github.com/Dat-Nguyen-BA/MIS-451/blob/main/Group%203A_MIS%20451_Final%20Project/Group%203A_MIS%20451_Code.ipynb))
+
 ├── [📄 Group 3A_MIS 451_Report.pdf]([url](https://github.com/Dat-Nguyen-BA/MIS-451/blob/main/Group%203A_MIS%20451_Final%20Project/Group%203A_MIS%20451_Report.pdf))
+
 ├── 📄 README.md                      # Project documentation
 
 # 🎯 Project Objectives

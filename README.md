@@ -25,35 +25,35 @@ Predict hotel booking cancellations using ML and DL models.
 
 Help hotels implement:
 
-  Smarter overbooking strategies
+  - Smarter overbooking strategies
   
-  Targeted retention incentives
+  - Targeted retention incentives
   
-  Better resource planning
+  - Better resource planning
   
-  Reduce lost revenue caused by unexpected cancellations.
+  - Reduce lost revenue caused by unexpected cancellations.
 
 # 🧠 Business Context
 
 The hospitality industry faces:
 
-Volatile cancellation rates
-
-Overbooking risks
-
-Revenue leakage from unused inventory
-
-Misalignment between forecasted and actual check-ins
+  - Volatile cancellation rates
+  
+  - Overbooking risks
+  
+  - Revenue leakage from unused inventory
+  
+  - Misalignment between forecasted and actual check-ins
 
 Stakeholders affected:
 
-Hotel Management – occupancy, ADR
-
-Revenue Managers – pricing, yield management
-
-Operations/Front Desk – staffing, room assignment
-
-This project provides data-driven insight to strengthen decision-making.
+  - Hotel Management – occupancy, ADR
+  
+  - Revenue Managers – pricing, yield management
+  
+  - Operations/Front Desk – staffing, room assignment
+  
+  - This project provides data-driven insight to strengthen decision-making.
 
 # 📊 Dataset
 
@@ -69,17 +69,17 @@ Target variable: is_canceled (0 = not canceled, 1 = canceled)
 
 Key variables include:
 
-Lead time
-
-Market segment
-
-Deposit type
-
-Customer history
-
-Special requests
-
-Assigned room type
+  - Lead time
+  
+  - Market segment
+  
+  - Deposit type
+  
+  - Customer history
+  
+  - Special requests
+  
+  - Assigned room type
 
 #🔎 Exploratory Data Analysis (EDA)
 Key Findings:
@@ -98,37 +98,29 @@ Passive guests: Bookings with zero changes are the most unstable
 
 Customer history: Past cancellations strongly predict future ones
 
-Visualization examples:
-
-Market segment bar charts
-
-Lead time distribution
-
-Monthly cancellation trends
-
 # 🛠️ Data Preprocessing
 
 Steps performed:
 
-Removed 31,994 duplicates
+1. Removed 31,994 duplicates
 
-Handled missing values using:
+2. Handled missing values using:
 
-Mean imputation
+3. Mean imputation
 
-Random Forest imputation
+4. Random Forest imputation
 
-Dropping columns with >90% missing (e.g., company)
+5. Dropping columns with >90% missing (e.g., company)
 
-Removed unrealistic outliers
+6. Removed unrealistic outliers
 
-One-hot encoded 10 categorical variables → dataset expanded to 231 features
+7. One-hot encoded 10 categorical variables → dataset expanded to 231 features
 
-Train/test split: 80/20
+8. Train/test split: 80/20
 
-Scaling applied for LR and DL models
+9. Scaling applied for Logistic Regression models
 
-Handled imbalance via monitoring precision/recall trade-offs
+10. Handled imbalance via monitoring precision/recall trade-offs
 
 # 🤖 Machine Learning Models
 ## 1️⃣ Random Forest

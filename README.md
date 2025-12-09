@@ -3,7 +3,7 @@
 # MIS 451 – Machine Learning for Business
 ## Becamex Business School
 
-#📌 Overview
+# 📌 Overview
 
 This project builds predictive Machine Learning and Deep Learning models to determine whether a hotel booking will be canceled or completed. With a cancellation rate of nearly 37%, hotels experience significant revenue loss and operational inefficiencies. By developing a robust prediction system, hotels can optimize inventory, reduce overbooking risks, and improve revenue management.
 

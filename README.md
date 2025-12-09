@@ -10,7 +10,9 @@ This project builds predictive Machine Learning and Deep Learning models to dete
 This repository contains the full pipeline, from data preprocessing and EDA to machine learning models, deep learning models, and business recommendations.
 
 📂 Repository Structure
+
 📁 Hotel-Cancellation-Prediction
+
 │
 ├── [📄 Group 3A_MIS 451_Code.ipynb]([url](https://github.com/Dat-Nguyen-BA/MIS-451/blob/main/Group%203A_MIS%20451_Final%20Project/Group%203A_MIS%20451_Code.ipynb))
 

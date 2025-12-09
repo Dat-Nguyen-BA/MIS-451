@@ -81,7 +81,7 @@ Key variables include:
   
   - Assigned room type
 
-#🔎 Exploratory Data Analysis (EDA)
+# 🔎 Exploratory Data Analysis (EDA)
 Key Findings:
 
 Cancellation rate: ~37%
